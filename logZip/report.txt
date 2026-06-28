@@ -1,0 +1,30 @@
+=== ОТЧЕТ ПО ЛОГАМ ===
+
+1) Всего записей: 372
+
+2) Количество по уровням:\n   DEBUG: 116
+   INFO: 249
+   WARN: 1
+   ERROR: 6
+
+3) Временной диапазон:\n   начало: 2026-04-11T23:35
+   конец:   2026-04-16T10:51:28.025
+
+4) Количество по дням:\n   2026-04-11: 20
+   2026-04-12: 40
+   2026-04-13: 85
+   2026-04-14: 86
+   2026-04-16: 141
+
+5) Самый 'ошибочный' день: 2026-04-14 (4 errors)
+
+6) Топ сообщений:\n   109  Запрос к datacollector-service прошел успешно!
+   55  Вызов datacollector-service, operationType = PENALTY_CALCULATION
+   55  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+   6  Вызов report-service, operationType = PRESENTMENT
+   4  Fill pool skipped, pool has sufficient level or currently being filled.
+   4  After  cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+   4  Before cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+   4  Произошла ошибка при вызове report-service, errorMsg=Connection refused executing POST http://report-service:8080/api/v1/reports
+   2  keepalive: connection org.postgresql.jdbc.PgConnection@19b52fb4 is alive
+   2  keepalive: connection org.postgresql.jdbc.PgConnection@30c90933 is alive

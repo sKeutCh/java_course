@@ -1,0 +1,384 @@
+2026-04-16 10:27:30.959 INFO initializing Kafka metrics collector
+2026-04-16 10:27:31.056 INFO These configurations '[nullclient.id]' were supplied but are not used yet.
+2026-04-16 10:27:31.057 INFO Kafka version: 3.9.1
+2026-04-16 10:27:31.058 INFO Kafka commitId: f745dfdcee2b9851
+2026-04-16 10:27:31.058 INFO Kafka startTimeMs: 1776324401153
+2026-04-16 10:27:31.357 INFO [Producer clientId=producer-1] Disconnecting from node -1 due to socket connection setup timeout. The timeout value is 10553 ms.
+2026-04-16 10:27:31.358 WARN [Producer clientId=producer-1] Bootstrap broker some-kafka-bootstrap-server:9092 (id: -1 rack: null) disconnected
+2026-04-16 10:27:31.361 INFO [Producer clientId=producer-1] Cluster ID: 6BqWE8u0RqWtUxqa3LMkBw
+2026-04-16 10:27:34.059 INFO Starting Application using Java 21.0.2 with PID 1 (/app.jar started by 1000010000 in /workdir)
+2026-04-16 10:27:34.162 INFO No active profile set, falling back to 1 default profile: "default"
+2026-04-16 10:28:00.257 INFO BeanFactory id=3bfcffed-835b-35b4-b8ce-dff2f6ab94b0
+2026-04-16 10:28:09.561 INFO Tomcat initialized with port 8080 (http)
+2026-04-16 10:28:10.155 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2026-04-16 10:28:10.160 INFO Starting service [Tomcat]
+2026-04-16 10:28:10.253 INFO Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-04-16 10:28:10.958 INFO Initializing Spring embedded WebApplicationContext
+2026-04-16 10:28:11.055 INFO Root WebApplicationContext: initialization completed in 35904 ms
+2026-04-16 10:28:17.053 INFO HV000001: Hibernate Validator 8.0.3.Final
+2026-04-16 10:28:42.755 INFO Exposing 6 endpoints beneath base path '/actuator'
+2026-04-16 10:28:43.461 INFO Starting ProtocolHandler ["http-nio-8080"]
+2026-04-16 10:28:44.154 INFO Tomcat started on port 8080 (http) with context path '/'
+2026-04-16 10:28:44.263 INFO Started Application in 82.201 seconds (process running for 141.499)
+2026-04-16 10:49:18.246 DEBUG Attempting to create/setup new connection (d8677629-ad19-4127-9917-966166ffb2b5)
+2026-04-16 10:49:18.259 DEBUG Established new connection (d8677629-ad19-4127-9917-966166ffb2b5)
+2026-04-16 10:49:18.259 DEBUG Added connection org.postgresql.jdbc.PgConnection@78e99da7
+2026-04-16 10:49:19.216 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@30e5e6bc is alive
+2026-04-16 10:49:20.665 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@12e91a88 is alive
+2026-04-16 10:49:24.233 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@5b105777 is alive
+2026-04-16 10:49:25.624 DEBUG Closing connection org.postgresql.jdbc.PgConnection@53dbd80e: (connection has passed maxLifetime)
+2026-04-16 10:49:25.624 DEBUG Attempting to create/setup new connection (7eacd27f-1fcf-4b35-9dca-5f05596f6bd9)
+2026-04-16 10:49:25.637 DEBUG Established new connection (7eacd27f-1fcf-4b35-9dca-5f05596f6bd9)
+2026-04-16 10:49:25.637 DEBUG Added connection org.postgresql.jdbc.PgConnection@4722adc6
+2026-04-16 10:49:26.968 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@30c90933 is alive
+2026-04-16 10:49:30.459 DEBUG Before cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:49:30.462 DEBUG After  cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:49:30.462 DEBUG Fill pool skipped, pool has sufficient level or currently being filled.
+2026-04-16 10:49:31.365 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@51fd1862 is alive
+2026-04-16 10:49:32.274 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@117256f1 is alive
+2026-04-16 10:49:33.912 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@1fb5baaf is alive
+2026-04-16 10:49:35.664 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@45ae93b1 is alive
+2026-04-16 10:49:40.643 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@3c5b0842 is alive
+2026-04-16 10:49:46.184 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@19b52fb4 is alive
+2026-04-16 10:49:47.807 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@61c60d80 is alive
+2026-04-16 10:49:52.942 INFO  📨 Received GraphQL request – requestId=009e89cdd14829c9220fa2ffa49e7da9, clientIp=127.0.0.1, url=/v1/getDictionaryByFilter
+2026-04-16 10:49:52.945 DEBUG Parsed GraphQL request – requestId=009e89cdd14829c9220fa2ffa49e7da9, queryLength=707
+2026-04-16 10:49:52.957 DEBUG getDictionaryMainDtos: called with filter=DictionaryHeavyFilter(code=CURRENCY_CODE, recordValue=RUB)
+2026-04-16 10:49:52.967 INFO audit() - Auditing an event of class START with code DICT_SERVICE_FETCH_BY_FILTER with correlationId afcf76ad-7c60-402e-8971-6e8ff4d79464
+2026-04-16 10:49:52.967 DEBUG 🔍 [searchDictionaryMainDtosByHeavyFilter:] start
+2026-04-16 10:49:52.967 DEBUG 🔧 [generateRedisKey] Начало генерации Redis-ключа для объекта типа: org.example.dictionaryclient.model.DictionaryHeavyFilter
+2026-04-16 10:49:52.968 DEBUG 🧩 [generateRedisKey] DictionaryHeavyFilter suffix сформирован: _CURRENCY_CODE_RUB
+2026-04-16 10:49:52.968 DEBUG 🧩 [generateRedisKey] buildSuffix генерация suffix закончена
+2026-04-16 10:49:52.968 DEBUG 🧾 [generateRedisKey] JSON сериализован (44 символов)
+2026-04-16 10:49:52.968 DEBUG 🔧 Redis-ключ buildFullKey =  dict_main::_currency_code_rub_41b1d8e2143dc12500a5a2aa8069e47749690b6358ada4b8ffb3383189e6243d
+2026-04-16 10:49:52.968 DEBUG ⚠️ [searchDictionaryMainDtosByHeavyFilter: cacheKey] dict_main::_currency_code_rub_41b1d8e2143dc12500a5a2aa8069e47749690b6358ada4b8ffb3383189e6243d
+2026-04-16 10:49:52.970 DEBUG 📦 [getFromCache:] [Redis] Данные найдены в Redis кеше по ключу: dict_main::_currency_code_rub_41b1d8e2143dc12500a5a2aa8069e47749690b6358ada4b8ffb3383189e6243d
+2026-04-16 10:49:52.971 INFO audit() - Auditing an event of class SUCCESS with code DICT_SERVICE_FETCH_BY_FILTER with correlationId afcf76ad-7c60-402e-8971-6e8ff4d79464
+2026-04-16 10:49:52.971 DEBUG getDictionaryMainDtos: result size=1
+2026-04-16 10:49:52.972 DEBUG GraphQL query completed – requestId=009e89cdd14829c9220fa2ffa49e7da9, hasErrors=false
+2026-04-16 10:49:55.775 DEBUG Closing connection org.postgresql.jdbc.PgConnection@51fd1862: (connection has passed maxLifetime)
+2026-04-16 10:49:55.776 DEBUG Attempting to create/setup new connection (3e4d2e91-a63c-4b6b-a513-34c42e92b598)
+2026-04-16 10:49:55.779 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@3ed52c8a is alive
+2026-04-16 10:49:55.791 DEBUG Established new connection (3e4d2e91-a63c-4b6b-a513-34c42e92b598)
+2026-04-16 10:49:55.791 DEBUG Added connection org.postgresql.jdbc.PgConnection@4965a8d1
+2026-04-16 10:49:57.163 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@6f01ffc8 is alive
+2026-04-16 10:50:00.462 DEBUG Before cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:50:00.464 DEBUG After  cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:50:00.464 DEBUG Fill pool skipped, pool has sufficient level or currently being filled.
+2026-04-16 10:50:00.855 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@51d95bcc is alive
+2026-04-16 10:50:04.945 DEBUG Closing connection org.postgresql.jdbc.PgConnection@45ae93b1: (connection has passed maxLifetime)
+2026-04-16 10:50:04.946 DEBUG Attempting to create/setup new connection (5ae3f930-88ba-495a-acf1-71556dac3efb)
+2026-04-16 10:50:04.958 DEBUG Established new connection (5ae3f930-88ba-495a-acf1-71556dac3efb)
+2026-04-16 10:50:04.958 DEBUG Added connection org.postgresql.jdbc.PgConnection@53d5a873
+2026-04-16 10:50:09.003 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@5f1eaf87 is alive
+2026-04-16 10:50:13.711 DEBUG keepalive: connection org.postgresql.jdbc.PgConnection@5381f9f5 is alive
+2026-04-16 10:50:14.813 DEBUG Closing connection org.postgresql.jdbc.PgConnection@545fe2df: (connection has passed maxLifetime)
+2026-04-16 10:50:14.814 DEBUG Attempting to create/setup new connection (a0bf103f-86f1-46be-b4bf-9d11cc721200)
+2026-04-16 10:50:14.834 DEBUG Established new connection (a0bf103f-86f1-46be-b4bf-9d11cc721200)
+2026-04-16 10:50:14.834 DEBUG Added connection org.postgresql.jdbc.PgConnection@56df0579
+2026-04-16 10:50:15.316 DEBUG Closing connection org.postgresql.jdbc.PgConnection@5f3afc2d: (connection has passed maxLifetime)
+2026-04-16 10:50:15.316 DEBUG Attempting to create/setup new connection (926e22ae-34d1-4ff6-9b14-87b50feef7c5)
+2026-04-16 10:50:15.329 DEBUG Established new connection (926e22ae-34d1-4ff6-9b14-87b50feef7c5)
+2026-04-16 10:50:15.329 DEBUG Added connection org.postgresql.jdbc.PgConnection@5818e1d2
+2026-04-16 10:50:15.537 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@5d461c2d is alive
+2026-04-16 10:50:16.473 DEBUG Closing connection org.postgresql.jdbc.PgConnection@6f01ffc8: (connection has passed maxLifetime)
+2026-04-16 10:50:16.474 DEBUG Attempting to create/setup new connection (1dd69818-b186-4e60-9113-64de905b5c3b)
+2026-04-16 10:50:16.487 DEBUG Established new connection (1dd69818-b186-4e60-9113-64de905b5c3b)
+2026-04-16 10:50:16.487 DEBUG Added connection org.postgresql.jdbc.PgConnection@5c276e09
+2026-04-16 10:50:18.349 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@3012d520 is alive
+2026-04-16 10:50:23.231 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@3eeef831 is alive
+2026-04-16 10:50:27.411 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@57be775d is alive
+2026-04-16 10:50:30.464 DEBUG  Before cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:50:30.466 DEBUG  After  cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:50:30.467 DEBUG  Fill pool skipped, pool has sufficient level or currently being filled.
+2026-04-16 10:50:41.407 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@3029019c is alive
+2026-04-16 10:50:48.552 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@36cc4638 is alive
+2026-04-16 10:50:48.705 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@752e224 is alive
+2026-04-16 10:50:49.802 DEBUG Closing connection org.postgresql.jdbc.PgConnection@12e91a88: (connection has passed maxLifetime)
+2026-04-16 10:50:49.803 DEBUG Attempting to create/setup new connection (6c954f7b-6071-4e82-9516-a7576a83c8c5)
+2026-04-16 10:50:49.825 DEBUG Established new connection (6c954f7b-6071-4e82-9516-a7576a83c8c5)
+2026-04-16 10:50:49.825 DEBUG Added connection org.postgresql.jdbc.PgConnection@268603d1
+2026-04-16 10:50:54.414 DEBUG Closing connection org.postgresql.jdbc.PgConnection@61c60d80: (connection has passed maxLifetime)
+2026-04-16 10:50:54.415 DEBUG Attempting to create/setup new connection (39f76cd4-83b1-46b0-811a-8faf99058d0d)
+2026-04-16 10:50:54.429 DEBUG Established new connection (39f76cd4-83b1-46b0-811a-8faf99058d0d)
+2026-04-16 10:50:54.430 DEBUG Added connection org.postgresql.jdbc.PgConnection@2841f971
+2026-04-16 10:51:00.467 DEBUG  Before cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:51:00.468 DEBUG  After  cleanup stats (total=30/100, idle=30/30, active=0, waiting=0)
+2026-04-16 10:51:00.468 DEBUG  Fill pool skipped, pool has sufficient level or currently being filled.
+2026-04-16 10:51:01.562 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@4e1ac781 is alive
+2026-04-16 10:51:01.888 DEBUG Closing connection org.postgresql.jdbc.PgConnection@3ed52c8a: (connection has passed maxLifetime)
+2026-04-16 10:51:01.889 DEBUG Attempting to create/setup new connection (4af02ab4-057a-49e1-9243-cf1613d023be)
+2026-04-16 10:51:01.904 DEBUG Established new connection (4af02ab4-057a-49e1-9243-cf1613d023be)
+2026-04-16 10:51:01.904 DEBUG Added connection org.postgresql.jdbc.PgConnection@40cf275e
+2026-04-16 10:51:02.451 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@762e6d12 is alive
+2026-04-16 10:51:02.726 DEBUG Closing connection org.postgresql.jdbc.PgConnection@3012d520: (connection has passed maxLifetime)
+2026-04-16 10:51:02.727 DEBUG Attempting to create/setup new connection (32bca9ff-3e47-40fb-8049-5a8ed652c8e2)
+2026-04-16 10:51:02.742 DEBUG Established new connection (32bca9ff-3e47-40fb-8049-5a8ed652c8e2)
+2026-04-16 10:51:02.742 DEBUG Added connection org.postgresql.jdbc.PgConnection@4e08c137
+2026-04-16 10:51:03.179 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@40dd2032 is alive
+2026-04-16 10:51:05.669 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@30c90933 is alive
+2026-04-16 10:51:07.493 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@5b105777 is alive
+2026-04-16 10:51:08.269 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@78e99da7 is alive
+2026-04-16 10:51:09.103 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@30e5e6bc is alive
+2026-04-16 10:51:09.370 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@117256f1 is alive
+2026-04-16 10:51:09.964 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@4722adc6 is alive
+2026-04-16 10:51:12.114 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@1fb5baaf is alive
+2026-04-16 10:51:15.130 DEBUG Closing connection org.postgresql.jdbc.PgConnection@57be775d: (connection has passed maxLifetime)
+2026-04-16 10:51:15.131 DEBUG Attempting to create/setup new connection (2899675f-2afd-4ee0-aec6-28edc8e7c780)
+2026-04-16 10:51:15.144 DEBUG Established new connection (2899675f-2afd-4ee0-aec6-28edc8e7c780)
+2026-04-16 10:51:15.144 DEBUG Added connection org.postgresql.jdbc.PgConnection@1b3e54f8
+2026-04-16 10:51:16.990 DEBUG Closing connection org.postgresql.jdbc.PgConnection@40dd2032: (connection has passed maxLifetime)
+2026-04-16 10:51:16.990 DEBUG Attempting to create/setup new connection (6882bef8-b69d-4321-a63b-839f14894900)
+2026-04-16 10:51:17.003 DEBUG Established new connection (6882bef8-b69d-4321-a63b-839f14894900)
+2026-04-16 10:51:17.004 DEBUG Added connection org.postgresql.jdbc.PgConnection@15f9b9ef
+2026-04-16 10:51:19.829 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@3c5b0842 is alive
+2026-04-16 10:51:23.013 DEBUG Closing connection org.postgresql.jdbc.PgConnection@5381f9f5: (connection has passed maxLifetime)
+2026-04-16 10:51:23.016 DEBUG Attempting to create/setup new connection (3a92da39-2db6-4833-b201-8c4294733357)
+2026-04-16 10:51:23,016 ERROR Unable to write to stream TCP:logging-agent:5170 for appender Socket org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to TCP:logging-agent:5170: socket not available
+2026-04-16 10:51:23,019 ERROR An exception occurred processing Appender Socket org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to TCP:logging-agent:5170: socket not available
+2026-04-16 10:51:23.014 DEBUG  keepalive: connection org.postgresql.jdbc.PgConnection@19b52fb4 is alive
+2026-04-16 10:51:23.032 DEBUG Established new connection (3a92da39-2db6-4833-b201-8c4294733357)
+2026-04-16 10:51:23.033 DEBUG Added connection org.postgresql.jdbc.PgConnection@5697e028
+2026-04-16 10:51:28.024 DEBUG Closing connection org.postgresql.jdbc.PgConnection@5d461c2d: (connection has passed maxLifetime)
+2026-04-16 10:51:28.025 DEBUG Attempting to create/setup new connection (725b8fb4-52ad-4e69-8706-2061e129704d)
+2026-04-13 15:55:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 15:55:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 15:55:00.016 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 15:55:00.017 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:00:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:00:00.017 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:00:00.019 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:00:00.031 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:05:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:05:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:05:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:05:00.014 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:05:00.015 INFO Вызов report-service, operationType = PRESENTMENT
+2026-04-13 16:05:00.018 ERROR Произошла ошибка при вызове report-service, errorMsg=Connection refused executing POST http://report-service:8080/api/v1/reports
+2026-04-13 16:10:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:10:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:10:00.013 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:10:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:15:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:15:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:15:00.022 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:15:00.036 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:20:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:20:00.005 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:20:00.018 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:20:00.018 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:25:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:25:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:25:00.014 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:25:00.015 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:30:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:30:00.010 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:30:00.025 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:30:00.035 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:35:00.000 INFO  Вызов report-service, operationType = PRESENTMENT
+2026-04-13 16:35:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:35:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:35:00.017 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:35:00.026 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:35:01.963 ERROR  Произошла ошибка при вызове report-service, errorMsg=Unexpected end of file from server executing POST http://report-service:8080/api/v1/reports
+2026-04-13 16:40:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:40:00.004 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:40:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:40:00.014 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:45:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:45:00.003 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:45:00.020 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:45:00.028 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:50:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:50:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:50:00.023 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 16:50:00.023 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:55:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 16:55:00.004 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 16:55:00.026 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 16:55:00.027 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:00:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:00:00.005 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:00:00.021 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:00:00.022 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:05:00.000 INFO Вызов report-service, operationType = PRESENTMENT
+2026-04-13 17:05:00.005 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:05:00.017 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:05:00.017 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:05:00.026 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:10:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:10:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:10:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:10:00.014 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:15:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:15:00.004 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:15:00.022 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:15:00.022 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:20:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:20:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:20:00.024 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:20:00.025 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:25:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:25:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:25:00.015 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:25:00.015 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-13 17:30:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-13 17:30:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-13 17:30:00.021 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-13 17:30:00.021 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-11 23:35:00.006 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-11 23:35:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-11 23:35:00.018 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-11 23:35:00.018 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-11 23:40:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-11 23:40:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-11 23:40:00.016 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-11 23:40:00.017 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-11 23:45:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-11 23:45:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-11 23:45:00.019 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-11 23:45:00.042 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-11 23:50:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-11 23:50:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-11 23:50:00.022 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-11 23:50:00.026 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-11 23:55:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-11 23:55:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-11 23:55:00.015 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-11 23:55:00.017 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:00:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:00:00.014 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:00:00.019 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:00:00.030 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:05:00.001 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:05:00.001 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:05:00.019 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:05:00.019 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:10:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:10:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:10:00.015 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:10:00.015 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:15:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:15:00.003 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:15:00.025 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:15:00.029 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:20:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:20:00.004 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:20:00.013 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:20:00.016 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:25:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:25:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:25:00.012 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:25:00.012 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:30:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:30:00.004 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:30:00.023 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:30:00.023 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:35:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:35:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:35:00.012 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:35:00.012 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:40:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:40:00.004 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:40:00.016 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:40:00.016 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-12 00:45:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-12 00:45:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-12 00:45:00.025 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-12 00:45:00.025 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:05:01.371 ERROR  Произошла ошибка при вызове report-service, errorMsg=Unexpected end of file from server executing POST http://report-service:8080/api/v1/reports
+2026-04-14 10:10:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:10:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:10:00.013 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:10:00.015 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:15:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:15:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:15:00.025 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:15:00.025 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:20:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:20:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:20:00.017 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:20:00.018 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:25:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:25:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:25:00.021 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:25:00.022 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:30:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:30:00.007 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:30:00.025 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:30:00.028 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:35:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:35:00.014 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:35:00.015 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:35:00.015 INFO Вызов report-service, operationType = PRESENTMENT
+2026-04-14 10:35:00.019 ERROR Произошла ошибка при вызове report-service, errorMsg=Connection refused executing POST http://report-service:8080/api/v1/reports
+2026-04-14 10:35:00.022 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:40:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:40:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:40:00.012 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:40:00.014 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:45:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:45:00.003 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:45:00.020 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:45:00.021 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:50:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:50:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:50:00.013 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:50:00.013 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 10:55:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 10:55:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 10:55:00.018 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 10:55:00.019 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:00:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:00:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:00:00.017 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:00:00.021 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:05:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:05:00.000 INFO Вызов report-service, operationType = PRESENTMENT
+2026-04-14 11:05:00.023 ERROR Произошла ошибка при вызове report-service, errorMsg=Connection refused executing POST http://report-service:8080/api/v1/reports
+2026-04-14 11:05:00.023 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:05:00.029 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:05:00.032 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:10:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:10:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:10:00.016 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:10:00.016 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:15:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:15:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:15:00.035 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:15:00.038 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:20:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:20:00.004 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:20:00.013 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:20:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:25:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:25:00.004 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:25:00.014 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:25:00.019 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:30:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:30:00.004 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:30:00.016 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:30:00.025 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:31:30.001  Failed to validate connection org.postgresql.jdbc.PgConnection@2857450d (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.004  Failed to validate connection org.postgresql.jdbc.PgConnection@5c74a1f1 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.004  Failed to validate connection org.postgresql.jdbc.PgConnection@10d7f27 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.005  Failed to validate connection org.postgresql.jdbc.PgConnection@13e03d26 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.005  Failed to validate connection org.postgresql.jdbc.PgConnection@7608c6b6 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.005  Failed to validate connection org.postgresql.jdbc.PgConnection@f8a9aaf (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.005  Failed to validate connection org.postgresql.jdbc.PgConnection@6594383e (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.006  Failed to validate connection org.postgresql.jdbc.PgConnection@778f30a7 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.006  Failed to validate connection org.postgresql.jdbc.PgConnection@47827596 (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:31:30.006  Failed to validate connection org.postgresql.jdbc.PgConnection@1c06c02b (Соединение уже было закрыто). Possibly consider using a shorter maxLifetime value.
+2026-04-14 11:35:00.000 INFO  Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:35:00.000 INFO  Вызов report-service, operationType = PRESENTMENT
+2026-04-14 11:35:00.008 ERROR  Произошла ошибка при вызове report-service, errorMsg=Connection refused executing POST http://report-service:8080/api/v1/reports
+2026-04-14 11:35:00.008 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:35:00.025 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:35:00.031 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:40:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:40:00.003 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:40:00.012 INFO  Запрос к datacollector-service прошел успешно!
+2026-04-14 11:40:00.013 INFO   Запрос к datacollector-service прошел успешно!
+2026-04-14 11:45:00.000 INFO Вызов datacollector-service, operationType = PENALTY_CALCULATION
+2026-04-14 11:45:00.000 INFO   Вызов datacollector-service, operationType = COMISSION_CALCULATION
+2026-04-14 11:45:00.028 INFO  Запрос к datacollector-service прошел успешно!
